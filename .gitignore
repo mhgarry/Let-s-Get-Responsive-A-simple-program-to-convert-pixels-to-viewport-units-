@@ -1,0 +1,20 @@
+# Python specific
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.vscode/
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+# Ignore system-specific Python artifacts
+*.pyc
+*.pyo
+*.pyd
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+~
