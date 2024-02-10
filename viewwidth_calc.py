@@ -21,3 +21,13 @@ def main():
         print(f"{px} pixels is equal to {result}vw.")
       # call the px_to_vw function
       px_to_vw()
+    # skip to this line if user enters vh
+    elif user_input == "vh":
+      # if user enters vh, define and call the px_to_vh function
+      def px_to_vh():
+        px = int(input("Enter the number of pixels: "))
+        vh = int(input("Enter the viewport height: "))
+        result = px / vh * 100
+        print(f"{px} pixels is equal to {result}vh.")
+      # call the px_to_vh function
+      px_to_vh()
