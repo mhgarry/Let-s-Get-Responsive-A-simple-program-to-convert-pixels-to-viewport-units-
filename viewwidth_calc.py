@@ -31,3 +31,17 @@ def main():
         print(f"{px} pixels is equal to {result}vh.")
       # call the px_to_vh function
       px_to_vh()
+      # ask the user if they want to convert more pixels or end the program
+    print("Would you like to convert more pixels?")
+    print("Enter 'yes' to convert more pixels or 'no' to end the program.")
+    user_input = input("Enter your choice: ")
+    if user_input == "no":
+      print("Thank you for using the viewport width and height calculator.")
+      break
+    elif user_input == "yes":
+      continue
+    else:
+      print("Invalid input. Please enter 'yes' or 'no'.")
+      continue
+# call the main function
+main()
